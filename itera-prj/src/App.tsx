@@ -6,16 +6,16 @@ function App() {
     <div className="App">
       <ul>
         <li>
-          <b>First name:</b> {userInfo.firstName}
+          <strong>First name:</strong> {userInfo.firstName}
         </li>
         <li>
-          <b>Short biography:</b> {userInfo.ShortBiography}
+          <strong>Short biography:</strong> {userInfo.ShortBiography}
         </li>
         <li>
-          <b>Email:</b> {userInfo.contacts.email}
+          <strong>Email:</strong> {userInfo.contacts.email}
         </li>
         <li>
-          <b>GitHub account:</b> {userInfo.contacts.githubAccount}
+          <strong>GitHub account:</strong> {userInfo.contacts.githubAccount}
         </li>
       </ul>
     </div>
