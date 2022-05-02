@@ -15,7 +15,7 @@ function App() {
           <b>Email:</b> {userInfo.contacts.email}
         </li>
         <li>
-          <b>GitHub accoutnt:</b> {userInfo.contacts.githubAccount}
+          <b>GitHub account:</b> {userInfo.contacts.githubAccount}
         </li>
       </ul>
     </div>
